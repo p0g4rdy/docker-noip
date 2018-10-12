@@ -2,7 +2,6 @@ FROM alpine:3.8
 MAINTAINER MqllR <>
 
 ARG NOIP_VERSION=2.1.9-1
-ARG ARCH=arm
 ARG NOIP_URL=http://www.noip.com/client/linux/noip-duc-linux.tar.gz
 
 RUN apk --no-cache add --virtual .build \
