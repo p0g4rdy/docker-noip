@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:latest
 MAINTAINER MqllR <>
 
 ARG NOIP_VERSION=2.1.9-1
